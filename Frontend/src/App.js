@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { web3, loadContract } from './web3';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import HomePage from './components/HomePage';
+import LoginPage from './components/LoginPage';
+import SignupPage from './components/SignupPage';
 
 function App() {
   const [account, setAccount] = useState('');
@@ -53,11 +57,13 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <h1>Your React DApp</h1>
-      <p>Account: {account}</p>
-      <p>Data from Contract: {contractData}</p>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/login" component={LoginPage} />
+        <Route exact path="/signup" component={SignupPage} />
+        <Route exact path="/" component={HomePage}/>
+      </Switch>
+    </Router>
   );
 }
 
