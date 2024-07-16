@@ -1,0 +1,93 @@
+body, html{
+    width: auto;
+    height: auto;
+    top: -4259px;
+    left: -1283px;
+    gap: 0px;
+    opacity: 0px;
+    overflow: hidden; 
+
+}
+.landingPage{
+    width: auto;
+    height: Hug (658.59px)px;
+    top: 60px;
+    gap: 93px;
+    opacity: 0px;
+    margin:2%;
+    margin-bottom: -5%;
+
+}
+.nav{
+    padding: 20px 20px 20px 600px;
+    gap: 0px;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0px;
+}
+.Login_button{
+    padding: 5px 5px 5px 5px;
+    gap: 10px;
+    border-radius: 14px 14px 14px 14px;
+    background: #B9FF66;
+}
+.header{
+    width: Fixed (1,440px)px;
+    height: Hug (497.59px)px;
+    padding: 0px 100px 0px 100px;
+    gap: 0px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0px;
+
+}
+.header_content{
+    margin:50px;
+}
+.header_content .first_text{
+    
+    font-family: Space Grotesk;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 76.56px;
+    text-align: left;
+}
+.header_content .second_text{
+    font-family: SpaceGrotesk;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+.Img_content{
+    width: auto;
+    height: auto;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    margin-bottom:  40px; ;    
+}
+
+.footer {
+    background: #B9FF66;
+    font-size: large;
+    width: 100%;
+    height: auto;
+    bottom: 30%;
+    gap: 137px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 65px;
+  }
+  
+  .footer .style {
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+  }
+  
