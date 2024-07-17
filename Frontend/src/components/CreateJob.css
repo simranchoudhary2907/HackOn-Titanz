@@ -25,20 +25,34 @@ body, html{
     justify-content: flex-end;
     opacity: 0px;
 }
-.Login_button{
-    padding: 5px 5px 5px 5px;
+.User{
+    width: Hug (114px)px;
+    height: Hug (68px)px;
+    padding: 5px 25px 5px 25px;
     gap: 10px;
-    border-radius: 14px 14px 14px 14px;
-    background: #B9FF66;
+    border-radius: 14px;
+    opacity: 0px;
+    background-color: #B9FF66;
+
 }
 .header{
-    width: Fixed (1,440px)px;
+    /* width: Fixed (1,440px)px;
     height: Hug (497.59px)px;
     padding: 0px 100px 0px 100px;
     gap: 0px;
     display: flex;
     justify-content: space-between;
+    opacity: 0px; */
+
+    width: Fixed (1,440px)px;
+    height: Hug (497.59px)px;
+    top: 283px;
+    padding: 0px 100px 0px 100px;
+    gap: 0px;
+    display: flex;
+    justify-content: space-between;
     opacity: 0px;
+
 
 }
 .header_content{
@@ -47,10 +61,15 @@ body, html{
 .header_content .first_text{
     
     font-family: Space Grotesk;
-    font-size: 45px;
-    font-weight: 400;
-    line-height: 76.56px;
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 70px;
     text-align: left;
+    width: 531px;
+    height: 154px;
+    gap: 0px;
+    opacity: 0px;
+
 }
 .header_content .second_text{
     font-family: Space Grotesk;
@@ -62,9 +81,9 @@ body, html{
 }
 
 button{
-    width: 196px;
+    width: 110px;
     height: 68px;
-    padding: 20px 35px 20px 35px;
+    padding: 5px 15px 5px 15px;
     border-radius: 14px;
     gap: 10px;
     background-color: black;
@@ -81,7 +100,13 @@ button{
     gap: 0px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
-    margin-bottom:  40px; ;    
+    margin-bottom:  40px; 
+    /* width: 593.74px;
+    height: 497.59px; */
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+   
 }
 .footer {
     background: #B9FF66;

@@ -1,5 +1,5 @@
 import React from 'react';
-import './HomePage.css';
+import './CreateJob.css';
 import exampleImage from '../asserts/Illustration.png';
 import { Link } from 'react-router-dom';
 const HomePage = () => {
@@ -7,22 +7,22 @@ const HomePage = () => {
     <div>
       <div className='landingPage'>
         <nav className='nav'>
-          <div className='Login_button'>
+          <div className='User'>
             <p>
-                Login/Signup
+                 User
             </p>
           </div>
         </nav>
         <header className='header'>
           <div className='header_content'>
             <div className='first_text'>
-              <h1>Searching for a job</h1>
+              <h1>Create Job Opening</h1>
             </div>
             <div className='second_text'>
-              <p> Here is your one way stop to find jobs most suitable for you</p>
+              <p> Register your opening here</p>
             </div>
             <div className=''>
-            <button type="button">Find your jobs</button>
+            <button type="button">Create</button>
             </div>
           </div>
           <div className='Img_content'>
