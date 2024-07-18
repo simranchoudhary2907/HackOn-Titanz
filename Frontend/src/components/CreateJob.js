@@ -1,6 +1,6 @@
 import React from 'react';
-import './CreateJob.css';
-import exampleImage from '../asserts/Illustration.png';
+import '../styles/CreateJob.css';
+import exampleImage from '../assets/Illustration.png';
 import { Link } from 'react-router-dom';
 const HomePage = () => {
   return (
