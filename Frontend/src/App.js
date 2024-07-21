@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import HomePage from './components/HomePage';
 import LoginPage from './components/LoginPage';
 import SignupPage from './components/SignupPage';
-import CreateJob from './components/CreateJob';
+import Employers_Home from './components/Employers_Home';
 
 function App() {
   const [account, setAccount] = useState('');
@@ -63,7 +63,7 @@ function App() {
         <Route exact path="/login" component={LoginPage} />
         <Route exact path="/signup" component={SignupPage} />
         <Route exact path="/" component={HomePage}/>
-        <Route exact path="/createjob" component={CreateJob}/>
+        <Route exact path="/Employers_Home" component={Employers_Home}/>
       </Switch>
     </Router>
   );
