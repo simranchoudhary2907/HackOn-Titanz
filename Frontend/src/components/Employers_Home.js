@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/HomePage.css";
+import "../styles/Employers_Home.css";
 import exampleImage from "../assets/Illustration.png";
 import { Link } from "react-router-dom";
 const HomePage = () => {
@@ -15,16 +15,16 @@ const HomePage = () => {
         <div className="header">
           <div className="header_content">
             <div className="first_text">
-              <h1>Searching for a job</h1>
+              <h1>Create Job Opening</h1>
             </div>
             <div className="second_text">
               <p>
                 {" "}
-                Here is your one way stop to find jobs most suitable for you
+                Register Your Opening here
               </p>
             </div>
             <div >
-              <button className="btn">Find your jobs</button>
+              <button className="btn">Create Opening</button>
             </div>
           </div>
           <div className="Img_content">

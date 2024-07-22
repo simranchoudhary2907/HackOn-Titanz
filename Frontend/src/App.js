@@ -4,8 +4,12 @@ import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import HomePage from './components/HomePage';
 import LoginPage from './components/LoginPage';
 import SignupPage from './components/SignupPage';
+<<<<<<< HEAD
 import CreateJob from './components/CreateJob';
 import Hiring from './components/Hiring';
+=======
+import Employers_Home from './components/Employers_Home';
+>>>>>>> 1b06bafa58f3d035d254ab1b9eee81fa44d3b626
 
 function App() {
   const [account, setAccount] = useState('');
@@ -64,8 +68,12 @@ function App() {
         <Route exact path="/login" component={LoginPage} />
         <Route exact path="/signup" component={SignupPage} />
         <Route exact path="/" component={HomePage}/>
+<<<<<<< HEAD
         <Route exact path="/createjob" component={CreateJob}/>
         <Route exact path="/hiring" component={Hiring}/>
+=======
+        <Route exact path="/Employers_Home" component={Employers_Home}/>
+>>>>>>> 1b06bafa58f3d035d254ab1b9eee81fa44d3b626
       </Switch>
     </Router>
   );
