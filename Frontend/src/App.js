@@ -5,6 +5,7 @@ import HomePage from './components/HomePage';
 import LoginPage from './components/LoginPage';
 import SignupPage from './components/SignupPage';
 import CreateJob from './components/CreateJob';
+import Hiring from './components/Hiring';
 
 function App() {
   const [account, setAccount] = useState('');
@@ -64,6 +65,7 @@ function App() {
         <Route exact path="/signup" component={SignupPage} />
         <Route exact path="/" component={HomePage}/>
         <Route exact path="/createjob" component={CreateJob}/>
+        <Route exact path="/hiring" component={Hiring}/>
       </Switch>
     </Router>
   );

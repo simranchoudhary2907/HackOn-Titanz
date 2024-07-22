@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/CreateJob.css';
 import exampleImage from '../assets/Illustration.png';
 import { Link } from 'react-router-dom';
-const HomePage = () => {
+const CreateJob = () => {
   return (
     <div>
       <div className='landingPage'>
@@ -40,4 +40,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default CreateJob;
